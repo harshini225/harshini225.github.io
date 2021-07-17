@@ -1,1 +1,36 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.4.9/css-doodle.min.js"></script>
+  
+  <body style="background-color:#AED6F1;">
+
+
+<div class="container">
+  
+<css-doodle>
+  :doodle {
+  @grid: 5x15 / 100%;
+  background: #AED6F1;
+  cursor: pointer;
+
+  }
+  :doodle(:hover) { --s: 1 ; }
+
+  :after {
+  content: @pick(&#42, &#8270, &#9734, &#10029);
+  font-size: 2.5vmax;
+  color: #9575CD;
+  transform: scale(@rand(.2, .9));
+  
+  }
+  
+  transition: .5s cubic-bezier(.175, .885, .32, 1.275);
+  transition-delay: @rand(650ms);
+  transform: translateY(calc(var(--s) * 100%)) rotate(calc(var(--s) * 360deg));
+  
+</css-doodle>
+  
+<div class="text"><strong>Click Hear for a Free Iphone</strong></div>
+</div>
+</html>
