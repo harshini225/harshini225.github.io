@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: #0D47A1; 
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  left: 25%;
+  font-family: monospace;
+  font-size: 3em;
+}
