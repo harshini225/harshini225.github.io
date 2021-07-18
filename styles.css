@@ -29,7 +29,6 @@
   display: block; 
   text-align: center;
   align-items: center;
-  width: 75%;
   color: #0D47A1; 
 }
 
@@ -39,4 +38,8 @@
 
 .photo {
   display: inline-block;
+}
+
+.info {
+  display: block;
 }
