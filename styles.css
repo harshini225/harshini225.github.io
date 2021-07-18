@@ -7,8 +7,8 @@
 .text {
   position: absolute;
   text-align: center;
-  /* top: 40%; */
-  /* left: 25%; */
+  top: 40%;
+  left: 25%;
   font-family: monospace;
   font-size: 3em;
 }
