@@ -43,7 +43,4 @@
 .info {
   display: block;
   /* border:2px solid White; */ 
-  background-color:white;
-  text-align:center; 
-  font-family: monospace;
 }
