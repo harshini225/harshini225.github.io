@@ -26,9 +26,9 @@
 }
 
 .art {
-  float: left; 
+  display: inline-block; 
 }
 
 .photo {
-  float: left; 
+  display: inline-block;
 }
