@@ -24,3 +24,11 @@
   align-items: center;
   color: #0D47A1; 
 }
+
+.art {
+  float: left; 
+}
+
+.photo {
+  float: left; 
+}
