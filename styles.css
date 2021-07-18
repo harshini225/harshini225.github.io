@@ -6,11 +6,8 @@
 
 .text {
   position: absolute;
+  margin: 0 auto;
   text-align: center;
-  margin: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-family: monospace;
   font-size: 3em;
 }
