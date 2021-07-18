@@ -14,11 +14,12 @@
 }
 
 .folders {
-  position: absolute;
+  position: relative;
   /* top: 40%; */
   /* left: 25%; */
   font-family: monospace;
   font-size: 2em;
   display: inline; 
   text-align: center;
+  color: #0D47A1; 
 }
