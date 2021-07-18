@@ -42,5 +42,9 @@
 
 .info {
   display: block;
+  position: fixed;
+  bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
   /* border:2px solid White; */ 
 }
