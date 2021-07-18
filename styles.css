@@ -19,4 +19,5 @@
   /* left: 25%; */
   font-family: monospace;
   font-size: 2em;
+  display: inline; 
 }
