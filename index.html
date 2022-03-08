@@ -93,7 +93,7 @@
   </body>
 </html> --> 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en-US">
 <html>
   
@@ -138,8 +138,55 @@
 <div class="text"><strong>Chestnut</strong></div>
 </div>
 
-<img src="IMG_0103.png" alt="chestnut the corgi dog" class="responsive" style="width:75%;height:auto;"> </img>
+<img src="IMG_0103.png" alt="chestnut the corgi dog" class="center" style="width:75%;height:auto;"> </img>
+
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+  
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="folder.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chivo&display=swap" rel="stylesheet">
+  <title>untitled</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.4.9/css-doodle.min.js"></script>
+</head>
+
+<body style="background-color:#191970;">
+
+<div class="container">
+  
+<css-doodle>
+  :doodle {
+  @grid: 30x15 / 100%;
+  background: #191970;
+  cursor: pointer;
+
+  }
+  :doodle(:hover) { --s: 1 ; }
+
+  :after {
+  content: @pick(&#42, &#8270, &#9734, &#10029);
+  font-size: 2.5vmax;
+  color: #f5f5dc;
+  transform: scale(@rand(.2, .9));
+  
+  }
+  
+  transition: .5s cubic-bezier(.175, .885, .32, 1.275);
+  transition-delay: @rand(650ms);
+  transform: translateY(calc(var(--s) * 100%)) rotate(calc(var(--s) * 360deg));
+</css-doodle>
+
+<img src="City_Silhouette_PNG_Clip_Art.png" alt="city" class="center" style="width:75%;height:auto;"> </img>
 
   </body>
 </html>
+
 
