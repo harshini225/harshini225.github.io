@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+{% assign folder_path = "images/lecture/" | append: page.folder %}
+{% assign i = 0 %}
+{% if page.captions %}
+{% if page.captions[i] %}
+<p>{{ page.captions[i] }}</p>
+{% endif %}
+{% endif %}
+{% for image in site.static_files %}
+{% if image.path contains folder_path %}
+<img src="{{ image.path | relative_url }}">
+{% assign i = i | plus: 1 %}
+{% if page.captions %}
+{% if page.captions[i] %}
+<p>{{ page.captions[i] }}</p>
+{% endif %}
+{% endif %}
+<br>
+{% endif %}
+{% endfor %}

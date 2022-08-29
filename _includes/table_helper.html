@@ -1,0 +1,2 @@
+{% assign search_id = "/tables/" | append: include.name %}
+{{  site.tables | where: "id", search_id }}

@@ -1,0 +1,47 @@
+---
+---
+<table>
+  <tr>
+    {% for col in page.cols %}
+    <th> {{ col }} </th>
+    {% endfor %}
+  </tr>
+
+  {% for entry in page.contents %}
+  <tr>
+    {% for col in page.cols %}
+    <td>
+      {% assign v = entry[col] %}
+      {% if v.size == 1 %}
+      {% assign k = v.first.first.first %}
+      {% if k %}
+      <a href="{{v.first[k] | relative_url}}">{{k}}</a>
+      {% else %}
+      {{ v.first }}
+      {% endif %}
+      {% else %}
+      	{% for i in v %}
+        {% assign k = i.first.first %}
+        {% if col == page.cols[0] %}
+      	  {% if k %}
+      	  <a href="{{i[k] | relative_url}}">{{k}}</a>
+      	  {% else %}
+      	  {{ i }}
+      	  {% endif %}
+          <br>
+        {% else %}
+        <ul><li>
+      	  {% if k %}
+      	  <a href="{{i[k] | relative_url}}">{{k}}</a>
+      	  {% else %}
+      	  {{ i }}
+      	  {% endif %}
+        </li></ul>
+        {% endif %}
+      	{% endfor %}
+      {% endif %}
+    </td>
+    {% endfor %}
+  </tr>
+  {% endfor %}
+</table>

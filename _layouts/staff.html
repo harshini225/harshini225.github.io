@@ -1,0 +1,31 @@
+{% include base.html %}
+<div class="staff">
+  <div class="staff-wrapper">
+    <div class="staff-photo">
+      {% if page.photo %}
+      <div class="staff-img">
+        <img class="staff-image" src="{{site.baseurl}}/assets/images/staff/{{page.photo}}" onerror="this.src = '{{site.baseurl}}/assets/images/staff/filler.jpg';" alt="{{page.name}} photo">
+      </div>
+      {% endif %}
+      {% if page.throwback_photo %}
+      <div class="throwback-img">
+        <img class="staff-image" src="{{site.baseurl}}/assets/images/staff/{{page.throwback_photo}}" onerror="this.src = '{{site.baseurl}}/assets/images/staff/filler.jpg';" alt="{{page.name}} photo">
+      </div>
+      {% endif %}
+    </div>
+    <div class="staff-info">
+      <h3 class="staff-name">
+        {{ page.name }}
+      </h3>
+      {% if page.pronouns %}
+      <p class="staff-pronouns">Pronouns: {{ page.pronouns }}</p>
+      {% endif %}
+
+      {% if page.hometown %}
+      <p class="staff-pronouns">Hometown: {{ page.hometown }}</p>
+      {% endif %}
+
+      <p class="staff-bio">{{ page.bio }}</p>
+    </div>
+  </div>
+</div>
