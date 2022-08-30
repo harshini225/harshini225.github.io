@@ -17,15 +17,9 @@
       <h3 class="staff-name">
         {{ page.name }}
       </h3>
-      {% if page.pronouns %}
-      <p class="staff-pronouns">Pronouns: {{ page.pronouns }}</p>
+      {% if page.favorite_marine_animal %}
+      <p class="staff-pronouns">Favorite Marine Animal: {{ page.favorite_marine_animal }}</p>
       {% endif %}
-
-      {% if page.hometown %}
-      <p class="staff-pronouns">Hometown: {{ page.hometown }}</p>
-      {% endif %}
-
-      <p class="staff-bio">{{ page.bio }}</p>
     </div>
   </div>
 </div>
