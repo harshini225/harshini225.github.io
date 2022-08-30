@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-windowTitle: Welcome to CSCI 200 at Brown!
+windowTitle: Welcome to CSCI 1810: Computational Molecular Biology!
 icon: home_icon.png
 link_types: ["QuickLinks"]
 links: [
@@ -11,18 +11,18 @@ links: [
      "Type" : "QuickLinks"
   },
   {
+    "Title" : "Collaboration Policy",
+    "Link" : "google.com",
+    "Type" : "QuickLinks"
+  },
+  {
+    "Title" : "Accomodations",
+    "Link" : "google.com",
+    "Type" : "QuickLinks"
+  },
+  {
     "Title" : "Gradescope",
     "Link" : "https://www.gradescope.com/courses/344946",
-    "Type" : "QuickLinks"
-  },
-  {
-    "Title" : "Hours Sign-up Sheet",
-    "Link" : "https://forms.gle/vDrRap4xQsNVcGN86",
-    "Type" : "QuickLinks"
-  },
-  {
-    "Title" : "Zoom",
-    "Link" : "https://brown.hosted.panopto.com/Panopto/Pages/Auth/Login.aspx?instance=Shibboleth&Auth=Viewer&ReturnUrl=%2fPanopto%2fPages%2fSessions%2fList.aspx%3ffolderID%3d3a2d0c7c-0522-448b-9ecb-ae25017f7e19",
     "Type" : "QuickLinks"
   },
   {
@@ -31,25 +31,28 @@ links: [
     "Type" : "QuickLinks"
   },
   {
-  "Title" : "Extension Request Form",
-  "Link" : "https://docs.google.com/forms/d/e/1FAIpQLSfFqvYPht8DpP7_SlnbdAXU5j67DRLhf_coOrmdQaehHkq4iw/viewform?usp=sf_link",
-  "Type" : "QuickLinks"
-  },
-  {
-    "Title" : "Permanent Lab Switch Form",
-    "Link" : "https://forms.gle/9mvzrtfzwU8RA34T9",
+    "Title" : "Anonymous Feedback Form",
+    "Link" : "google.com",
     "Type" : "QuickLinks"
   },
-  {
-  "Title" : "Temporary Lab Switch Form",
-  "Link" : "https://forms.gle/iMvy1p9doWCPWDku7",
-  "Type" : "QuickLinks"
-  }
 ]
 ---
+notes for harshini  + lizzy: update the link for collab policy after it is updated
+actually update all the links
 
-CSCI 200 is a new course that replaces the former CSCI 160 and CSCI 180. Students will take CSCI 200 after taking CSCI 111, 112, 150, 170, or 190. It will be taught by [Kathi Fisler](https://cs.brown.edu/~kfisler/) and [Milda Zizyte](https://cs.brown.edu/people/faculty/mzizyte/). Starting immediately, CS200 will be **offered every semester** (both fall and spring). Hopefully this will create more flexible options for students. Like the previous 160/180 courses, CSCI 200 will center around data structures, algorithms, analyzing algorithms for performance and social-impacts, and good programming practices.
+WELCOME TO CS181: COMPUTATIONAL MOLECULAR BIOLOGY! 
 
-The **first class meeting** will be held in Salomon 101/DECI auditorium. It will also be livestreamed via Panopto, for those who prefer to maintain more social distance from other students. The livestream link will appear automatically right at 11am from within the [Canvas Media Library (lecture capture folder)](https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=3a2d0c7c-0522-448b-9ecb-ae25017f7e19). Refresh the page to see the link if it isn't up when you first get to the page. You may need to have the course in your cart to access the livestream. **Note that we are NOT using the Zoom link in Canvas for the livestream on Wednesday. The Zoom link is for something else (starting on Friday).** We will be taking questions in real time during class via [Ed Discussions](https://edstem.org/us/courses/16807/discussion/). If you have the course in your cart, you should have access.
+The aim of this course is to provide an introduction to computational molecular biology. The course is organized into six chapters:
+
+1. Sequence Alignment
+2. Combinatorial Pattern Matching
+3. Phylogenetic Trees
+4. Hidden Markov Models
+5. Genome Assembly
+6. Genomic Privacy
+
+Each chapter is devoted to a class of basic computational problems related to the analysis of DNA, RNA, and protein sequences and their molecular function. Our journey in each chapter is driven by a set of beautiful algorithms. A "beautiful" algorithm is one that is rigorous, practical, elegantly simple, and easy to implement. In addition to these beautiful algorithms, each chapter contains a Foundations section that gives a detailed presentation of the biological problems discussed as well as the theoretical computer science and statatistical results that led to the invention of the algorithms. This class provides a serious introduction to the field of computational biology both for potential concentrators and for those who may take only a single course in the subject.
+
+Historical note: CS181 was first taught at Brown 23 years ago by Professor Franco Preparata (i.e. before the completion of the Human Genome Project). This year's offering is the 24rd incarnation of this foundational course in computational biology. See the Resources page for a biology primer written by Prof. Preparata.
 
 
