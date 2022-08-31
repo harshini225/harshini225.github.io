@@ -44,8 +44,8 @@ body {
   svg #fish4,
   svg #fish5,
   svg #fish6 {
-  fill:#528484;
-  /* fill:#30c5ff; */
+  /* fill:#528484; */ 
+  fill:#30c5ff;
     
       -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;

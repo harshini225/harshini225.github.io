@@ -93,7 +93,7 @@
 .site-sidebar {
   padding: 30px 5px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: absolute;
   width: 100px;
 
@@ -104,8 +104,8 @@
 
     .site-nav {
       display: flex;
-      width: 90px;
-      flex-direction: column;
+      // width: 90px;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       left: 15px;
@@ -123,7 +123,7 @@
     }
 
     .trigger {
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       gap: 10px;
@@ -212,9 +212,9 @@ header {
 .window {
   width: 100%;
   background-color: white;
-  border: 2px solid #d4d4d4;
-  padding: 1px;
-  box-shadow: 2px 2px 2px #4d4c4c;
+  // border: 2px solid #d4d4d4;
+  // padding: 1px;
+  // box-shadow: 2px 2px 2px #4d4c4c;
   margin-bottom: 8%;
 
   @media only screen and (max-width: 600px) {
@@ -229,8 +229,8 @@ header {
       text-align: left;
       color: #fff;
       line-height: 1.2;
-      border: 4px solid #d4d4d4;
-      background: navy;
+      // border: 4px solid #d4d4d4;
+      background: #2f8ece;
       display: flex;
       flex-direction: row;
       text-transform: capitalize;
@@ -294,12 +294,12 @@ header {
 
     .window-content {
       font-family: "Open Sans";
-      border-top: 3px solid #4d4c4c;
-      border-left: 4px solid #d4d4d4;
-      border-right: 4px solid #d4d4d4;
+      // border-top: 3px solid #4d4c4c;
+      // border-left: 4px solid #d4d4d4;
+      // border-right: 4px solid #d4d4d4;
       border-bottom: 2px solid #d4d4d4;
       padding: 15px 15px 0px 15px;
-      box-shadow: inset 2px 0.5px 2px #4d4c4c;
+      // box-shadow: inset 2px 0.5px 2px #4d4c4c;
     }
 }
 
@@ -335,17 +335,16 @@ header {
 
 .header {
   position: relative;
-  margin-top: 10px;
-  font-size: 3rem;
+  // margin-top: 10px;
+  font-size: 6rem;
   font-family: "Coiny";
   display: flex;
   flex-direction: row;
   // justify-content: flex-end;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   color: white;
   text-shadow: 2px 2px #5d5d5d;
-  width: 100%;
   z-index: 20;
 
   a {

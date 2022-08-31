@@ -34,7 +34,7 @@
   border-radius: 5px;
   text-align: right;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   z-index: 20;
 
   @media only screen and (max-width: 600px) {
