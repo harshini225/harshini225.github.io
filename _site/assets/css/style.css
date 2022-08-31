@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Coiny");
 .highlight .c { color: #998; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
 .highlight .k { font-weight: bold; }
@@ -252,24 +254,19 @@ table td { border: 1px solid #e8e8e8; }
 .site-sidebar .link-wrapper .text { display: flex; justify-content: center; align-items: center; color: black; font-weight: bold; font-size: 0.9rem; }
 
 /** SITE SIDEBAR **/
-header { font-family: 'Press Start 2P', cursive; height: 25px; }
+header { font-family: 'Coiny'; height: 25px; }
 
 /** SITE FOOTER **/
-.footer-wrapper { font-family: monospace; height: 30px; width: 100%; padding: 5px 0 5px 0; display: flex; justify-content: flex-start; align-items: center; flex-direction: row; background: #d4d4d4; border-top: 1px solid #f4f4f4; border-bottom: 1px solid #4e4e4e; box-shadow: inset 1px 0 #fff; }
-.footer-wrapper .footer-button { display: flex; justify-content: center; align-items: center; box-shadow: inset 0 0 3px #000000; padding: 3px; margin-left: 2px; margin-bottom: 2px; margin-top: 2px; vertical-align: middle; display: inline-block; padding: 2px 6px 3px; background-color: silver; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid gray; border-bottom: 1px solid gray; box-shadow: inset 1px 1px #dfdfdf, 1px 0 #000, 0 1px #000, 1px 1px #000; min-width: 59px; margin-right: 6px; color: #000; cursor: pointer; }
+.footer-wrapper { font-family: 'Coiny'; height: 30px; width: 100%; padding: 5px 0 5px 0; display: flex; justify-content: center; align-items: center; flex-direction: row; background: #d4d4d4; border-top: 1px solid #f4f4f4; border-bottom: 1px solid #4e4e4e; box-shadow: inset 1px 0 #fff; }
 
 /** WINDOW **/
 .window { width: 100%; background-color: white; border: 2px solid #d4d4d4; padding: 1px; box-shadow: 2px 2px 2px #4d4c4c; margin-bottom: 8%; }
 @media only screen and (max-width: 600px) { .window { margin-top: 70px; } }
-.window .title { font-family: 'Press Start 2P', cursive; font-size: 1.2rem; position: relative; text-align: left; color: #fff; line-height: 1.2; border: 4px solid #d4d4d4; background: navy; display: flex; flex-direction: row; justify-content: space-between; }
+.window .title { font-family: 'Coiny', cursive; font-size: 1.5rem; position: relative; text-align: left; color: #fff; line-height: 1.2; border: 4px solid #d4d4d4; background: navy; display: flex; flex-direction: row; text-transform: capitalize; }
 .window .title .title-text { padding: 0.5em 0.75em; }
-.window .title .button { display: block; color: #000; background-color: silver; position: relative; z-index: 10; float: right; border-left: 2px solid #ededed; border-top: 2px solid #ededed; border-right: 2px solid #404040; border-bottom: 2px solid #404040; }
-.window .title .buttons-wrapper { margin: 5px 0 5px 0; display: flex; flex-direction: row; justify-content: flex-end; position: relative; width: 33%; }
-@media only screen and (max-width: 900px) { .window .title .buttons-wrapper { display: none; } }
-.window .title .buttons-wrapper > button:last-child { margin-right: 3px; margin-left: 10px; }
-.window .title .button:active { border-left: 2px solid #000000; border-top: 2px solid #000000; border-right: 2px solid #ededed; border-bottom: 2px solid #ededed; }
-.window .title .button > img { width: 200%; }
-.window .window-content { font-family: monospace; border-top: 3px solid #4d4c4c; border-left: 4px solid #d4d4d4; border-right: 4px solid #d4d4d4; border-bottom: 2px solid #d4d4d4; padding: 15px 15px 0px 15px; box-shadow: inset 2px 0.5px 2px #4d4c4c; }
+.window p { font-family: "Open Sans"; }
+.window h3 { font-family: "Coiny"; }
+.window .window-content { font-family: "Open Sans"; border-top: 3px solid #4d4c4c; border-left: 4px solid #d4d4d4; border-right: 4px solid #d4d4d4; border-bottom: 2px solid #d4d4d4; padding: 15px 15px 0px 15px; box-shadow: inset 2px 0.5px 2px #4d4c4c; }
 
 /* LINKS */
 .links-subcontainer > p { display: block; margin: 5px 20px 5px 5px; width: 30%; }
@@ -281,7 +278,7 @@ header { font-family: 'Press Start 2P', cursive; height: 25px; }
 .links-container { padding-bottom: 10px; }
 
 /** Header, title **/
-.header { position: relative; margin-top: 10px; font-size: 3rem; font-family: "Press Start 2P", cursive; display: flex; flex-direction: row; justify-content: flex-end; align-items: center; color: white; text-shadow: 2px 2px #5d5d5d; width: 100%; z-index: 20; }
+.header { position: relative; margin-top: 10px; font-size: 3rem; font-family: "Coiny"; display: flex; flex-direction: row; justify-content: center; align-items: center; color: white; text-shadow: 2px 2px #5d5d5d; width: 100%; z-index: 20; }
 .header a { color: white; text-transform: none; text-decoration: none; }
 @media only screen and (max-width: 600px) { .header { font-size: 2rem; display: flex; justify-content: flex-end; align-items: center; position: fixed; margin-top: 0px !important; top: 0px; left: 0px; height: 60px; width: 100vw; backdrop-filter: blur(10px); }
   .header .text { right: 20px; position: relative; } }

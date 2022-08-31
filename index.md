@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-windowTitle: Welcome to CS181 Computational Molecular Biology!
+windowTitle: WELCOME TO CS 181, COMPUTATIONAL MOLECULAR BIOLOGY! 
 icon: home_icon.png
 link_types: ["QuickLinks"]
 links: [
@@ -51,14 +51,14 @@ The aim of this course is to provide an introduction to computational molecular 
 
 Each chapter is devoted to a class of basic computational problems related to the analysis of DNA, RNA, and protein sequences and their molecular function. Our journey in each chapter is driven by a set of beautiful algorithms. A "beautiful" algorithm is one that is rigorous, practical, elegantly simple, and easy to implement. In addition to these beautiful algorithms, each chapter contains a Foundations section that gives a detailed presentation of the biological problems discussed as well as the theoretical computer science and statatistical results that led to the invention of the algorithms. This class provides a serious introduction to the field of computational biology both for potential concentrators and for those who may take only a single course in the subject.
 
-Historical note: CS181 was first taught at Brown 23 years ago by Professor Franco Preparata (i.e. before the completion of the Human Genome Project). This year's offering is the 24rd incarnation of this foundational course in computational biology. See the Resources page for a biology primer written by Prof. Preparata.
+<i> Historical note: CS181 was first taught at Brown 23 years ago by Professor Franco Preparata (i.e. before the completion of the Human Genome Project). This year's offering is the 24rd incarnation of this foundational course in computational biology. See the Resources page for a biology primer written by Prof. Preparata. </i>
 
 
 ### FAQ
 <details>
   <summary>Who takes the course?</summary>
+  As an interdisciplinary course, CS181 attracts a diverse group of students. Past students have ranged from sophomores concentrating in Computer Science and Computational Biology through Ph.D. students in Computer Science, Applied Mathematics, and Biology. The course staff will do its best to ensure that all students have a chance to succeed. Please do not hesitate to talk to a member of the course staff if you have trouble deciding whether CS181 is a good fit for you. 
 
-  As an interdisciplinary course, CS181 attracts a diverse group of students. Past students have ranged from sophomores concentrating in Computer Science and Computational Biology through Ph.D. students in Computer Science, Applied Mathematics, and Biology. The course staff will do its best to ensure that all students have a chance to succeed. Please do not hesitate to talk to a member of the course staff if you have trouble deciding whether CS181 is a good fit for you.
 </details>
 
 <details>
@@ -98,3 +98,5 @@ Historical note: CS181 was first taught at Brown 23 years ago by Professor Franc
   Yes! To get it, you will need to do all undergraduate coursework in the class plus a final research project defined in discussions with the professor. Work for the final project consists of (1) a piece of code implementing a new algorithm or analysis or simulation, (2) a short written paper about your project and algorithms/code, and (3) a comprehensive powerpoint and a final project presentation to the class. Please email the professor for more information about this.
 
 </details>
+
+<br>

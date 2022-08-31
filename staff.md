@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Staff
-windowTitle: Staff
+windowTitle: STAFF
 icon: staff_icon.png
 link_types: []
 links: []
