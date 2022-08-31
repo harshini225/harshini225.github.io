@@ -9,7 +9,8 @@ links: []
 
 <!-- # {{ page.title }} -->
 
-## Professors
+### Professor
+
 <div class="uta-container">
   {% assign professors = site.staff | where: 'role', 'Professor' %}
   {% for staffer in professors %}
@@ -20,7 +21,7 @@ links: []
 {% assign HTAs = site.staff | where: 'role', 'HTA' %}
 {% if HTAs.size != 0 %}
 
-## HTAs
+### HTA
 
 <div class="uta-container">
   {% for staffer in HTAs %}
@@ -31,7 +32,8 @@ links: []
 
 {% assign STAs = site.staff | where: 'role', 'STA' %}
 {% if STAs.size != 0 %}
-## STAs
+
+### STAs
 
 <div class="uta-container">
   {% for staffer in STAs %}
@@ -42,7 +44,8 @@ links: []
 
 {% assign UTAs = site.staff | where: 'role', 'UTA' %}
 {% if UTAs.size != 0 %}
-## UTAs
+
+### UTAs
 
 <div class="uta-container">
   {% for staffer in UTAs %}

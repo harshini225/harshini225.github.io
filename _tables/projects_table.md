@@ -1,5 +1,5 @@
 ---
-cols: ["Project", "Out", "In"]
+cols: ["Project", "Out", "In", "Support Files"]
 contents: [
    {
     "Project" : [{"Project 0: Warmup" : "https://google.com"}],

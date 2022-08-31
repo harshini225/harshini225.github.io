@@ -1,5 +1,5 @@
 ---
-cols: ["Homework", "Out", "In"]
+cols: ["Homework", "Out", "In", "Support Files"]
 contents: [
   {
     "Homework" : [{"Course Setup Form" : "https://google.com"}],
