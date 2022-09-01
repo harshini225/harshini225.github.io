@@ -9,21 +9,19 @@ links: []
 
 <!-- # {{ page.title }} -->
 
-### Professor
+### Professor and HTA
 
 <div class="uta-container">
   {% assign professors = site.staff | where: 'role', 'Professor' %}
   {% for staffer in professors %}
   {{ staffer }}
   {% endfor %}
-</div>
+<!-- </div> -->
 
 {% assign HTAs = site.staff | where: 'role', 'HTA' %}
 {% if HTAs.size != 0 %}
 
-### HTA
-
-<div class="uta-container">
+<!-- <div class="uta-container"> -->
   {% for staffer in HTAs %}
   {{ staffer }}
   {% endfor %}
