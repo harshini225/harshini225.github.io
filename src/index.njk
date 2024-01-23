@@ -1,0 +1,49 @@
+---
+layout: layout.njk
+title: Jack Walker's Website
+script: ../js/balloon_script.js
+description:
+  Jack Walker is an early-career journalist passionate about local government, education, social justice and
+  LGBTQ+ rights. Currently, I report on the Eastern Panhandle for West Virginia Public Broadcasting.
+---
+
+<main>
+    <section id="intro-section">
+        <div id="name-and-links">
+            <h1>Jack Walker</h1>
+            <div id="social-media-links">
+                {% for socialMediaLink in socialMediaLinks %}
+                    <a href="{{ socialMediaLink.link }}">{{ socialMediaLink.name }}</a>
+                    <span class="social-media-link-dash-separator" aria="hidden">/</span>
+                {% endfor %}
+            </div>
+        </div>
+        <p id="about">{{ aboutText }}</p>
+    </section>
+
+    <section>
+        <ul id="articles-list">
+            {% for article in articles %}
+                <li class="article-card">
+                    <a href="{{ article.link }}">
+                        <div class="article-content">
+                            <img
+                                class="article-image"
+                                src="../assets/{{ article.image }}"
+                                alt=""
+                            />
+                            <div class="article-text-wrapper">
+                                <h2 class="article-title">{{ article.title }}</h2>
+                                <div class="article-detail">
+                                    <p>{{ article.publication }}</p>
+                                    <p>{{ article.date }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+
+</main>
