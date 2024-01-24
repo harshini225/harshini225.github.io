@@ -19,14 +19,11 @@ jobs:
             node-version: '10.x'
 
 
-        - run: npm ci
-
-
-        - run: npm run build
+        - run: npx @11ty/eleventy
 
 
         - name: Deploy
           uses: peaceiris/actions-gh-pages@v3
           with:
             deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-            publish_dir: ./dist
+            publish_dir: ./_site
